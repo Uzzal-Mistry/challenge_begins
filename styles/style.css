@@ -9,6 +9,17 @@
     font-style: normal;
 }
 
+/* common css */
+.description {
+    font-size: 12px;
+    font-weight: 400px;
+    line-height: 26px;
+    color: rgb(13, 19, 33);
+}
+
+/* end */
+
+
 /* Navbar style */
 
 .nav1 {
@@ -52,15 +63,11 @@
     font-weight: 800;
     line-height: 68px;
     margin-bottom: 24px;
- 
+
 }
-.header_description{
-    font-size: 16px;
-    font-weight: 400px;
-    line-height: 26px;
-    color: rgb(13, 19, 33);
-}
-.header_btn{
+
+
+.header_btn {
     font-size: 20px;
     font-weight: 700px;
     color: white;
@@ -70,4 +77,159 @@
     background-color: rgb(13, 19, 33);
     border: none;
     margin: 32px 0px 45px 0px;
+}
+
+/* main section style */
+
+main {
+    margin: 74px 152px 0px 148px;
+    background-color: rgba(13, 19, 33, 0.02);
+    border-radius: 16px;
+    padding: 0px 97px 0px 97px;
+    border: 1px solid;
+
+}
+
+.introduction {
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 48px;
+
+}
+
+.wev_title {
+    font-size: 32px;
+    font-weight: 800px;
+    line-height: 37px;
+
+}
+
+.wev_boxs {
+
+    height: 240px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 48px;
+
+}
+
+.box1_title {
+    font-size: 24px;
+    font-weight: 700px;
+    line-height: 36px;
+    color: rgba(13, 19, 33, 0.7);
+}
+
+.box1_btn {
+    width: 165px;
+    height: 45px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+    border: 2px solid;
+    border-color: rgb(13, 19, 33);
+    border-radius: 1px;
+    margin-top: 32px;
+}
+
+.wev_boxs2 {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.web_development {
+    padding-bottom: 80px;
+
+    margin-bottom: 50px;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 800px;
+    line-height: 37px;
+    margin-bottom: 20px;
+    color: #0d1321;
+}
+
+.inspiration {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.img_container {
+    border: 1px solid;
+    padding: 30px;
+    border-radius: 16px;
+    border-color: rgba(13, 19, 33, 0.2);
+    margin-top: 48px;
+
+}
+
+.imag_ifame {
+    border-radius: 16px;
+
+
+}
+
+.target {
+    margin-top: 150px;
+
+}
+
+.target_description {
+    text-align: center;
+}
+
+.title_name {
+    font-size: 24px;
+    font-weight: 800px;
+    line-height: 36px;
+    margin: 24px 0px 8px 0px;
+
+}
+
+.target_btn {
+    font-size: 16px;
+    font-weight: 700px;
+    line-height: 19px;
+    color: rgb(13, 19, 33);
+    margin-top: 24px;
+}
+
+.box {
+    width: 220px;
+    height: 200px;
+    background-color: rgba(255, 76, 30, 0.05);
+    padding: 40px;
+    border-radius: 16px;
+}
+.target_boxs{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 48px;
+}
+.next_description{
+    text-align: center;
+    margin-top: 110px;
+    margin-bottom: 48px;
+}
+.next_box{
+    border: 1px solid;
+    display: flex;
+    padding: 40px;
+    border-color: rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    align-items: center;
+    justify-content: space-between;
+}
+.gh{
+    margin-bottom: 15px;
+}
+.next_box3{
+    margin: 24px 0px 24px 0px;
 }
